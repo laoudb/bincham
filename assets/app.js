@@ -73,14 +73,7 @@ if(burger && mobileMenu){
 })();
 
 /* Toast */
-function toast(msg){
-  const t = $("#toast");
-  if(!t) return;
-  t.textContent = msg;
-  t.classList.add("show");
-  clearTimeout(window.__toastTimer);
-  window.__toastTimer = setTimeout(()=>t.classList.remove("show"), 3200);
-}
+
 
 /* Counters */
 (function counters(){
