@@ -230,8 +230,7 @@ function toast(msg){
   $$("[data-close]", modal).forEach(b=>b.addEventListener("click", close));
 })();
 
-/* Year 
-$("#year").textContent = new Date().getFullYear();*/
+
 
 /* Particles (subtle, white background friendly) */
 (function particles(){
