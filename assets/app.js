@@ -435,7 +435,7 @@ const open = (key)=>{
 
   <p style="margin:0; color: var(--muted); line-height:1.65; font-size:16px;">
 
-	Diplômé ingénieur en systèmes d’information par l’EPF en 2020, puis spécialisé en réseaux à l’Université Paris Dauphine, 
+	Diplômé ingénieur en systèmes d’information par l’EPF, puis spécialisé en réseaux à l’Université Paris Dauphine, 
 	j’ai bâti mon parcours en tant qu’indépendant au cœur d’organisations à forts enjeux. J’ai accompagné des groupes 
 	internationaux tels que Safran, Crédit Agricole et Airbus, en France comme à Singapour, ainsi qu’une PME industrielle de 
 	référence, Socofer.<br>
