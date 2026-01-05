@@ -359,7 +359,7 @@ function toast(msg){
 
       <div class="field">
         <label>Message (optionnel)</label>
-        <textarea name="message" placeholder="Contexte, contraintes, stack/outils, dates…"></textarea>
+        <textarea name="message" placeholder="Contexte, contraintes, stack/outils…"></textarea>
       </div>
 
       <div class="consent">
