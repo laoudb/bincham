@@ -117,5 +117,30 @@ Ce positionnement permet de mobiliser des experts de haut niveau, pleinement eng
       </div>
     </div>
   </footer>
+
+
+
+
+
+
+
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const toggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.menu');
+
+  if (!toggle || !menu) return;
+
+  toggle.addEventListener('click', function () {
+    menu.classList.toggle('open');
+    toggle.textContent = menu.classList.contains('open') ? '✕' : '☰';
+  });
+});
+</script>
+
+	
 </body>
 </html>
