@@ -231,3 +231,16 @@ h2{margin:0;font-size:clamp(1.8rem,3vw,3rem);letter-spacing:-.04em}
   outline:none;
   box-shadow:none;
 }
+
+
+
+
+
+
+@media (max-width:760px){
+  .menu a{
+    display:block;
+    width:100%;
+    padding:12px 0;
+  }
+}
