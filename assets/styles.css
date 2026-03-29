@@ -241,6 +241,11 @@ h2{margin:0;font-size:clamp(1.8rem,3vw,3rem);letter-spacing:-.04em}
   .menu a{
     display:block;
     width:100%;
-    padding:12px 0;
+    padding:14px 10px;
+    border-radius:10px;
+  }
+
+  .menu a:active{
+    background:#f4f4f2;
   }
 }
