@@ -215,3 +215,19 @@ h2{margin:0;font-size:clamp(1.8rem,3vw,3rem);letter-spacing:-.04em}
     display:flex !important;
   }
 }
+
+
+
+/* FORCER COULEUR NOIRE BOUTON MENU */
+.menu-toggle{
+  color:#000 !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.menu-toggle:focus,
+.menu-toggle:active,
+.menu-toggle:hover{
+  color:#000 !important;
+  outline:none;
+  box-shadow:none;
+}
