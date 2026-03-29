@@ -129,3 +129,79 @@ h2{margin:0;font-size:clamp(1.8rem,3vw,3rem);letter-spacing:-.04em}
 .panel-why p{
   color:rgba(255,255,255,0.8);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* AJOUT MENU MOBILE SANS TOUCHER A L'EXISTANT */
+.menu-toggle{
+  display:none;
+}
+
+@media (max-width:760px){
+  .nav-inner{
+    position:relative;
+  }
+
+  .menu-toggle{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:44px;
+    height:44px;
+    font-size:20px;
+    border-radius:12px;
+    border:1px solid var(--line);
+    background:#fff;
+    cursor:pointer;
+    z-index:60;
+  }
+
+  .menu{
+    position:absolute;
+    top:70px;
+    left:20px;
+    right:20px;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:18px;
+    box-shadow:var(--shadow);
+    padding:18px;
+    flex-direction:column;
+    gap:14px;
+    opacity:0;
+    transform:translateY(-10px);
+    pointer-events:none;
+    transition:.25s ease;
+  }
+
+  .menu.open{
+    opacity:1;
+    transform:translateY(0);
+    pointer-events:auto;
+  }
+
+  .menu a{
+    font-size:1rem;
+    padding:6px 0;
+  }
+}
