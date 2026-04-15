@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+<rect width="640" height="640" fill="#f4f4f2"/>
+<rect x="28" y="28" width="584" height="584" rx="48" fill="#fbfbf9" stroke="#d8d3c7" stroke-width="4"/>
+<circle cx="320" cy="220" r="92" fill="#111111" opacity="0.1"/>
+<path d="M182 470c16-92 106-140 138-140s122 48 138 140" fill="#111111" opacity="0.1"/>
+<text x="320" y="568" font-family="Inter, Arial, sans-serif" font-size="76" text-anchor="middle" fill="#111111" letter-spacing="6">GM</text>
+</svg>
