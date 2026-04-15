@@ -391,3 +391,29 @@ h1{
   }
 }
 
+
+
+
+
+
+
+
+
+@media (max-width: 820px) {
+  .hero-visual {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .hero-visual .mini-card {
+    min-height: auto !important;
+    width: 100% !important;
+  }
+
+  .hero-visual .mini-card h3,
+  .hero-visual .mini-card p {
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+  }
+}
+
